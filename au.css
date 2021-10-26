@@ -1,0 +1,106 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	
+	width:100%;
+	height:100%;
+	background-image: linear-gradient(orange,#E85A12);
+/* 	background-color:linear-gradient(orange,#E85A12); */
+	
+	
+}
+
+
+
+
+    /*  Contenedor de los botones  */
+.contenedor {
+	
+/* 	display:grid; */
+	display:inline-block;
+	text-align:center;
+	/*border: 3px solid black;
+	background-color:#257DAF;*/
+	width:400px;
+	height:200px;
+	margin:50px;
+	
+}
+
+/* BOTON */
+
+div button {
+	width: 397px;
+	height:49px;	
+}
+
+/* BOTON PLAY */
+.play {
+	background-color:#4BCF2F;
+	color:whitesmoke;
+}
+
+/* BOTON PAUSA */
+.pause {
+	background-color:#E5EA37;
+	color:indigo;
+}
+
+/* BOTONES ATRAS ADELANTE */
+.siguiente {
+	background-color:#D61C28;
+	color:#68D2E1;
+}
+.anterior {
+	background-color:#281CD6;
+	color:#E1D268;
+}
+
+/* BOTON RESET */
+button .reset {
+	
+}
+
+/* display <div> */
+.display {
+	display:inline-block;
+	text-align:center;
+	width:500px;
+	height:120px;
+	background-color:black;
+	
+}
+
+/* TIEMPO TRANSCURRIDO <div> */
+
+h3 {
+	
+	color:olive;
+}
+
+span {
+	
+	color:magenta;
+}
+
+/* DEFINIMOS LA BARRA DE PROGRESO */
+
+.barra {
+	position:absolute;
+	width:600px;
+	height:20px;
+	background:#333;
+	left:285px;
+	bottom:330px;
+}
+
+.barra .barraProg {
+	
+	width:0%;
+	height:20px;
+	background-color:teal;
+}
