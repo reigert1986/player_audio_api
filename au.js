@@ -1,3 +1,5 @@
+
+
 const canciones = [
 	{
 		file : "./audio/pista1.mp3",
@@ -17,6 +19,9 @@ const canciones = [
 	},
 	
 ]
+
+const str = JSON.stringify(canciones);
+
 
 let index = 0; // INDICE DEL OBJETO CANCIONES
 
