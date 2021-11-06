@@ -1,0 +1,433 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+	font-family:font;
+	src:url(../fuentes/w95fa.woff) format("woff"),
+		url(../fuentes/w95fa.woff2) format("woff2");
+	
+}
+
+body {
+	
+	width:1000px;
+	height:800px;
+	background-image: url(../img/vapo1.jpg);
+	background-size:cover;
+	
+}
+
+.main {
+    
+	width:970px;
+    margin: 20px;
+}
+
+
+    /*  Contenedor de los botones  */
+.contenedor {
+	
+ 	display:flex; 
+	justify-content: center;
+     align-items: center;
+	text-align:center;
+	flex-direction:column;
+
+	/*border: 3px solid black;
+	background-color:#257DAF;*/
+	width:900px;
+	height:210px;
+	margin:50px;
+	
+}
+
+/* BOTON */
+
+div button {
+    
+	display: flex;
+	
+	width: 400px;
+	height:49px;	
+	font-family:font;
+  
+  flex-direction:column;
+  justify-content: center;
+  
+	font-size: xx-large;
+	font-family:font;
+	align-items: center;
+}
+
+/* BOTON PLAY */
+.play {
+	background-color:#4BCF2F;
+	color:whitesmoke;
+}
+
+/* BOTON PAUSA */
+.pause {
+	background-color:#E5EA37;
+	color:indigo;
+}
+
+/* BOTONES ATRAS ADELANTE */
+.siguiente {
+	background-color:#D61C28;
+	color:#68D2E1;
+}
+.anterior {
+	background-color:#281CD6;
+	color:#E1D268;
+}
+
+/* BOTON RESET */
+.reset {
+	background-image:linear-gradient(green,lime,violet);
+	color:#556C1D;
+}
+
+/* display <div> */
+.display {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	width:1000px;
+	background-image:url("../img/vapo.jpg");
+	background-origin: content-box;
+	object-fit: contain;
+	background-size:contain;
+	
+	font-family:font;
+	flex-direction:column;
+	height:250px;
+	background-color:black;
+	font-size: 30px;
+	font-weight: bolder;
+	
+}
+
+/* TIEMPO TRANSCURRIDO <div> */
+
+h3 {
+	
+	color:#42EAF8;
+}
+
+span {
+	
+	color:whitesmoke;
+}
+
+/* DEFINIMOS LA BARRA DE PROGRESO */
+
+.barra {
+	width:1000px;
+	height:20px;
+	background:#333;
+	
+}
+
+.barra .barraProg {
+	
+	width:0%;
+	height:20px;
+	background-image:linear-gradient(red,blue);
+}
+
+
+@media (max-width:480px){
+	
+/*@font-face {
+	font-family:font;
+	src:url(w95fa.woff) format("woff"),
+		url(w95fa.woff2) format("woff2");
+	
+}
+
+	
+body {
+	
+	width:479px;
+	height:853px;
+	background-color:greenyellow;
+}
+
+
+
+/*  Contenedor de los botones  */
+
+/*.contenedor {
+	
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	width:420px;
+	height:20px;
+	
+	
+}	*/
+
+
+/* BOTON */
+/*div button {
+	width: 400px;
+	height:49px;	
+	font-family:font;
+	
+}*/
+
+
+
+/* BOTON PLAY */
+/*.play{
+        
+   background-color:brown;
+}*/
+/* BOTON PAUSA */
+/*.pausa{
+        
+    }*/
+
+/* BOTONES ATRAS ADELANTE */
+/*.siguiente{
+        color:darkgoldenrod;
+        background-color: deepskyblue;
+  }
+.anterior{
+        
+    }
+    
+ */
+
+
+/* BOTON RESET */
+/*.reset {
+        /*
+	position:relative;      
+	left:222px;
+	top:300px;
+        */
+
+*/
+
+/* display <div> */
+
+/*.display {
+	
+	width:420px;
+	height:177px;
+	background-color:black;
+//	position:relative;
+//	left:11px;
+//	top:32px;
+	z-index:1;
+  font-size: 20px;
+  font-weight: bolder;
+	
+}*/
+
+/* TIEMPO TRANSCURRIDO <div> */
+/*h3 {
+	font-family:font;
+	color:red;
+}
+
+span {
+	font-family:font;
+	color:violet;
+}*/
+
+
+/* DEFINIMOS LA BARRA DE PROGRESO */
+
+/*.barra {  
+  top:450px; 
+	width:420px;
+	height:20px;
+	background:#333;
+	left:31px;
+	z-index:2;
+	
+	
+}
+
+.barra .barraProg {
+	
+	width:0%;
+	height:20px;
+	background-color:teal;
+	z-index:3px;
+}
+ 
+  } 
+*/
+
+@font-face {
+	font-family:font;
+	src:url(../fuentes/w95fa.woff) format("woff"),
+		url(../fuentes/w95fa.woff2) format("woff2");
+	
+}
+
+	
+body {
+	
+	width:479px;
+	height:853px;
+	background-image: url(../img/vapo1.jpg);
+  background-size:cover;
+}
+
+
+
+/*  Contenedor de los botones  */
+
+.contenedor {
+	background-color: transparent;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+	width:450px;
+	height:300px;
+  
+  flex-basis: 3;
+  padding: 0;
+	
+	
+}	
+
+
+/* BOTON */
+div button {
+  display: flex;
+  
+  flex-direction:column;
+  justify-content: center;
+  
+	font-size: xx-large;
+	font-family:font;
+	align-items: center;
+}
+
+
+
+/* BOTON PLAY */
+.play{
+    background-image:linear-gradient(180deg,green,violet);
+  		color:chartreuse;
+}
+/* BOTON PAUSA */
+.pause{
+        
+      background-image:linear-gradient(90deg,red,violet);
+       
+    }
+
+/* BOTONES ATRAS ADELANTE */
+.siguiente{
+        //background-image: linear-gradient(darkgoldenrod,deepskyblue);
+        background-color: chartreuse;
+        color:midnightblue;
+  }
+.anterior{
+        background-image:linear-gradient(270deg,blue,red);
+    }
+    
+ 
+
+
+/* BOTON RESET */
+.reset {
+        background-image: linear-gradient(olive,brown);
+        color:;
+        font-size:32px;
+        text-shadow: 1px 0px;
+}
+
+/* display <div> */
+
+.display {
+	
+	width:450px;
+	height:237px;
+	background-image:url("../img/vapo.jpg");
+	background-origin: content-box;
+	object-fit: contain;
+	background-size:contain;
+	z-index:1;
+	text-align: center;      
+	font-size: 20px;
+	font-weight: bolder;
+	
+}
+
+/* TIEMPO TRANSCURRIDO <div> */
+h3 {
+        
+	font-family:font;
+	color:lightcyan;
+  font-size:2.5rem;
+}
+
+span {
+ 
+	font-family:font;
+	color:beige;
+  text-align: center;
+  font-style:italic;
+   
+
+}
+
+
+/* DEFINIMOS LA BARRA DE PROGRESO */
+
+.barra {  
+  
+	width:450px;
+	height:20px;
+	background:#333;
+	
+	z-index:2;
+	
+	
+}
+
+.barra .barraProg {
+	
+	width:0%;
+	height:20px;
+	background-color:greenyellow;
+	z-index:3px;
+}
+ 
+.main {
+        
+     width:470px;
+    margin: 20px;
+    display: flex;
+    flex-direction:column ;
+     
+        
+        
+        
+}
+
+h4 {
+   color:deeppink;
+        
+}
+h5 {
+   color:khaki;
+   font-size:20px;
+    }
+}    
+
+
+}
