@@ -1,0 +1,66 @@
+
+body {
+	background: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+}
+/* PANTALLA PRINCIPAL*/
+.main {
+	width: 1000px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.contenedor	{
+	width: 500px;
+	height: 60px;
+	transform: translateY(-76px);
+	background: linear-gradient(to right, #005c97, #363795);
+	
+	margin: 79px;
+			/*  PROBANDO FLEXBOX  */
+	display: flex;		
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	border-radius: 5%;
+}
+
+		/*BOTONES*/
+	
+button {
+	border-radius: 40%;
+	height: 40px;
+	width: 60px;
+	background-color: #375AEE;
+}
+.btn:hover {
+	background: linear-gradient(to right, #673ab7, #512da8);
+	color: white;
+}
+
+.dis-lis {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	transform: translateY(-154px);
+	text-align: center;
+	margin: 4px;
+}
+
+.display {
+	width: 500px;
+	background: linear-gradient(to top, 
+	#654ea3, #eaafc8);
+	height: 300px;	
+    display: flex;
+    flex-direction: column;
+    
+}
+	
+.list {
+	width: 200px;	
+	height: 300px; 
+	background: linear-gradient(to left, #20002c, #cbb4d4);
+	overflow-x: scroll;
+}
