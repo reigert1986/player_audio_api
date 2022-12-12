@@ -90,7 +90,6 @@ function anteriorCancion(){
 // REPRODUCIR Lista entera
 
 function playSongList(){
-	
 	audio.addEventListener("ended", siguienteCancion )
 }
 
